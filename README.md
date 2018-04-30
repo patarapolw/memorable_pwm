@@ -23,7 +23,7 @@ pip install password_manager
 ```
 or
 ```commandline
-pip install -e git+https://github.com/patarapolw/memorable_pwm.git
+pip install -e https://github.com/patarapolw/password_manager.git
 ```
 
 ## Usage
