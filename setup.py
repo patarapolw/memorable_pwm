@@ -5,7 +5,7 @@ with open('README.md') as f:
     try:
         import pypandoc
         long_description = pypandoc.convert_text(long_description, 'rst', format='md')
-    except ImportError:
+    except (ImportError, OSError):
         pass
 
 setup(
