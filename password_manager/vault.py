@@ -10,12 +10,6 @@ from threading import Timer
 
 class Vault:
     def __init__(self, password, path_to_vault='password.vault', timeout=60):
-        """
-
-        :param password:
-        :param path_to_vault:
-        :param timeout:
-        """
         self.password = password
         self.path_to_vault = path_to_vault
         self.timeout = timeout

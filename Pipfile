@@ -7,12 +7,8 @@ name = "pypi"
 pycryptodome = "*"
 
 [dev-packages]
-MyUtils = {git = "https://github.com/patarapolw/MyUtils.git", editable = true}
 pytest = "*"
 pytest-readme = "*"
-pypandoc = "*"
-wheel = "*"
-twine = "*"
 
 [requires]
 python_version = "3.6"

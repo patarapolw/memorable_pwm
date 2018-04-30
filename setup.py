@@ -10,11 +10,11 @@ with open('README.md') as f:
 
 setup(
     name='password_manager',
-    version='0.1.1',
+    version='0.1.2',
     description='A library for password manager for Python',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/patarapolw/memorable_pwm',
+    url='https://github.com/patarapolw/password_manager',
     author='Pacharapol Withayasakpunt',  # Optional
     author_email='patarapolw@gmail.com',  # Optional
     keywords='password password-manager',
