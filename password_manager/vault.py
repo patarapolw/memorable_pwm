@@ -117,4 +117,3 @@ class Vault:
                     ciphertext, tag = cipher_aes.encrypt_and_digest(json.dumps(self.data).encode())
                     for x in (enc_session_key, cipher_aes.nonce, tag, ciphertext):
                         f.write(x)
-
