@@ -10,7 +10,7 @@ with open('README.md') as f:
 
 setup(
     name='password_manager',
-    version='0.1.0',
+    version='0.1.1',
     description='A library for password manager for Python',
     long_description=long_description,
     long_description_content_type='text/markdown',
