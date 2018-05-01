@@ -18,6 +18,15 @@ def test_create():
     os.remove(filename)
 
 
+def test_wrong_password():
+    filename = str(uuid4())
+    with Vault('correctpassword', path_to_vault=filename):
+        pass
+    with pytest.raises(ValueError):
+        with Vault('wrongpassword', path_to_vault=filename):
+            pass
+
+
 def test_expiry():
     timeout = 5
     filename = str(uuid4())
@@ -57,7 +66,6 @@ def test_bad_save():
 
 
 if __name__ == '__main__':
-    from MyUtils.testing.repeat import timeit
     # test_expiry()
     # timeit(test_create)
-    test_save()
+    test_wrong_password()
