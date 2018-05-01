@@ -68,4 +68,6 @@ def test_bad_save():
 if __name__ == '__main__':
     # test_expiry()
     # timeit(test_create)
-    test_wrong_password()
+    vault = Vault('averystrongpassword')
+    print(dict(vault).keys())
+    vault.close()

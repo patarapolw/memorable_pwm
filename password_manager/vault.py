@@ -43,7 +43,7 @@ class Vault:
         del self.data
 
     def __iter__(self):
-        return self.data
+        return self.data.__iter__()
 
     def __setitem__(self, key, value):
         if 'password' not in value.keys():
