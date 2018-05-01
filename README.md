@@ -1,4 +1,4 @@
-# Memorable Password Manager
+# Password Manager
 
 [![Build Status](https://travis-ci.org/patarapolw/memorable_pwm.svg?branch=master)](https://travis-ci.org/patarapolw/memorable_pwm)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/password_manager.svg)](https://pypi.python.org/pypi/password_manager/)
