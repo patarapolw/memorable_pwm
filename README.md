@@ -42,6 +42,7 @@ with Vault('amasterpassword') as vault:
 ## Real-world usage
 
 ```python
+
 do_exit = False
 
 while not do_exit:
