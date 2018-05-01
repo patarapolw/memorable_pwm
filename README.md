@@ -38,3 +38,7 @@ with Vault('amasterpassword') as vault:
 with Vault('amasterpassword') as vault:
     print(vault['reddit']['password'])
 ```
+
+## Found in
+
+- https://github.com/patarapolw/memorable-password
