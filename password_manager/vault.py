@@ -15,6 +15,7 @@ class Vault:
         self.timeout = timeout
         self.data = dict()
         self.timer = Timer(timeout, self.invalidate_data)
+        self.timer.daemon = True
         self.timer.start()
         self.load()
 
@@ -31,6 +32,7 @@ class Vault:
             self.data = data
         self.timer.cancel()
         self.timer = Timer(self.timeout, self.invalidate_data)
+        self.timer.daemon = True
         self.timer.start()
 
     def invalidate_data(self):
