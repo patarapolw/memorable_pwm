@@ -23,7 +23,7 @@ pip install password_manager
 ```
 or
 ```commandline
-pip install -e https://github.com/patarapolw/password_manager.git
+pipenv install -e git+https://github.com/patarapolw/password_manager.git#egg=password_manager
 ```
 
 ## Usage
