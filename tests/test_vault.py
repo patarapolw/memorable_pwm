@@ -25,6 +25,7 @@ def test_wrong_password():
     with pytest.raises(ValueError):
         with Vault('wrongpassword', path_to_vault=filename):
             pass
+    os.remove(filename)
 
 
 def test_expiry():
@@ -68,6 +69,4 @@ def test_bad_save():
 if __name__ == '__main__':
     # test_expiry()
     # timeit(test_create)
-    vault = Vault('averystrongpassword')
-    print(dict(vault).keys())
-    vault.close()
+    test_wrong_password()
