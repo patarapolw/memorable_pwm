@@ -1,10 +1,10 @@
 # Password Manager
 
-[![Build Status](https://travis-ci.org/patarapolw/memorable_pwm.svg?branch=master)](https://travis-ci.org/patarapolw/memorable_pwm)
-[![PyPI version shields.io](https://img.shields.io/pypi/v/password_manager.svg)](https://pypi.python.org/pypi/password_manager/)
-[![PyPI license](https://img.shields.io/pypi/l/password_manager.svg)](https://pypi.python.org/pypi/password_manager/)
-[![PyPI pyversions](https://img.shields.io/pypi/pyversions/password_manager.svg)](https://pypi.python.org/pypi/password_manager/)
-[![PyPI status](https://img.shields.io/pypi/status/password_manager.svg)](https://pypi.python.org/pypi/password_manager/)
+[![Build Status](https://travis-ci.org/patarapolw/pypwm.svg?branch=master)](https://travis-ci.org/patarapolw/pypwm)
+[![PyPI version shields.io](https://img.shields.io/pypi/v/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
+[![PyPI license](https://img.shields.io/pypi/l/pypwm.svg)](https://pypi.python.org/pypi/pypvm/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
+[![PyPI status](https://img.shields.io/pypi/status/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
 [![Examples tested with pytest-readme](http://img.shields.io/badge/readme-tested-brightgreen.svg)](https://github.com/boxed/pytest-readme)
 
 A library for password manager for Python
@@ -19,17 +19,17 @@ A library for password manager for Python
 ## Installation
 
 ```commandline
-pip install password_manager
+pip install pypwm
 ```
 or
 ```commandline
-pipenv install -e git+https://github.com/patarapolw/password_manager.git#egg=password_manager
+pipenv install -e git+https://github.com/patarapolw/pypwm.git#egg=pypwm
 ```
 
 ## Usage
 
 ```python
-from password_manager.vault import Vault
+from pwm.vault import Vault
 
 with Vault('amasterpassword') as vault:
     vault['reddit'] = {

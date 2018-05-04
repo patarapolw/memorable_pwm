@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/memorable_pwm.iml" filepath="$PROJECT_DIR$/.idea/memorable_pwm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/pypwm.iml" filepath="$PROJECT_DIR$/.idea/pypwm.iml" />
     </modules>
   </component>
 </project>

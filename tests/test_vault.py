@@ -3,7 +3,7 @@ from time import sleep
 import os
 from uuid import uuid4
 
-from password_manager.vault import Vault
+from pwm.vault import Vault
 
 
 def test_create():

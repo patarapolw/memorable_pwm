@@ -9,16 +9,16 @@ with open('README.md') as f:
         pass
 
 setup(
-    name='password_manager',
-    version='0.1.6',
+    name='pypwm',
+    version='0.2.1',
     description='A library for password manager for Python',
     long_description=long_description,
     long_description_content_type='text/markdown',
-    url='https://github.com/patarapolw/password_manager',
+    url='https://github.com/patarapolw/pwm',
     author='Pacharapol Withayasakpunt',  # Optional
     author_email='patarapolw@gmail.com',  # Optional
     keywords='password password-manager',
-    packages=['password_manager'],
+    packages=['pwm'],
     install_requires=['pycryptodome'],
     license='MIT',
     classifiers=[
