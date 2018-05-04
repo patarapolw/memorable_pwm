@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/patarapolw/pypwm.svg?branch=master)](https://travis-ci.org/patarapolw/pypwm)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
-[![PyPI license](https://img.shields.io/pypi/l/pypwm.svg)](https://pypi.python.org/pypi/pypvm/)
+[![PyPI license](https://img.shields.io/pypi/l/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
 [![PyPI status](https://img.shields.io/pypi/status/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
 [![Examples tested with pytest-readme](http://img.shields.io/badge/readme-tested-brightgreen.svg)](https://github.com/boxed/pytest-readme)
