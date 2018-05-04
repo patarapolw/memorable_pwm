@@ -1,4 +1,4 @@
-# Password Manager
+# Py Password Manager
 
 [![Build Status](https://travis-ci.org/patarapolw/pypwm.svg?branch=master)](https://travis-ci.org/patarapolw/pypwm)
 [![PyPI version shields.io](https://img.shields.io/pypi/v/pypwm.svg)](https://pypi.python.org/pypi/pypwm/)
